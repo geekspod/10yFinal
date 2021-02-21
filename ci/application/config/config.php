@@ -30,7 +30,7 @@ $uri_segments = explode('/', $uri_path);
 
 
 //if($_SERVER['SERVER_NAME'] == "localhost"){
-	$config['base_url']	= "/ci";
+	$config['base_url']	= "http://10-yards.us-east-2.elasticbeanstalk.com/ci/";
 //				$config['base_url']	= $_SERVER['REQUEST_SCHEME']."://".$_SERVER['HTTP_HOST'];
 
 
