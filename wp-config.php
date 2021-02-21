@@ -23,13 +23,13 @@
 define( 'DB_NAME', 'ten-yards' );
 
 /** MySQL database username */
-define( 'DB_USER', 'zeryard1_corp' );
+define( 'DB_USER', '10yards' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'adadadad' );
+define( 'DB_PASSWORD', 'oUnp534L8aHAwv9' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'alefdb.cs8di2gzhe9o.us-east-2.rds.amazonaws.com' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
