@@ -30,17 +30,17 @@ $uri_segments = explode('/', $uri_path);
 
 
 if($_SERVER['SERVER_NAME'] == "localhost"){
-	$config['base_url']	= "http://10-yards.us-east-2.elasticbeanstalk.com/ci";
+	$config['base_url']	= "http://10-yards.us-east-2.elasticbeanstalk.com/ci/";
 //				$config['base_url']	= $_SERVER['REQUEST_SCHEME']."://".$_SERVER['HTTP_HOST'];
 
 
-	$config['base_url']	= $_SERVER['REQUEST_SCHEME']."://".$_SERVER['HTTP_HOST'];
+	$config['base_url']	= $_SERVER['REQUEST_SCHEME']."://".$_SERVER['HTTP_HOST']."/ci/";
 
 }else{
 ///////////////// development //////////////////////
 	//$config['base_url']	= "http://twelve4twelve";
 	$config['base_url']	= $_SERVER['REQUEST_SCHEME']."://".$_SERVER['HTTP_HOST'];
-	$config['base_url'] = 'http://10-yards.us-east-2.elasticbeanstalk.com/ci';
+	$config['base_url'] = 'http://10-yards.us-east-2.elasticbeanstalk.com/ci/';
 }
 
 // date_default_timezone_set('America/New_York');
