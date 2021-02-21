@@ -1,0 +1,55 @@
+2021-02-18T09:24:14+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /Applications/MAMP/htdocs/ten-yards/wp-admin/includes/class-wp-community-events.php:357
+Stack trace:
+#0 /Applications/MAMP/htdocs/ten-yards/wp-includes/script-loader.php(1758): WP_Community_Events->get_cached_events()
+#1 /Applications/MAMP/htdocs/ten-yards/wp-includes/class-wp-hook.php(287): wp_localize_community_events('')
+#2 /Applications/MAMP/htdocs/ten-yards/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /Applications/MAMP/htdocs/ten-yards/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/ten-yards/wp-admin/admin-header.php(123): do_action('admin_print_scr...')
+#5 /Applications/MAMP/htdocs/ten-yards/wp-admin/index.php(115): require_once('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/ten-yards/wp-admin/includes/class-wp-community-events.php on line 357
+
+2021-02-18T10:34:58+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /Applications/MAMP/htdocs/ten-yards/wp-admin/includes/class-wp-community-events.php:357
+Stack trace:
+#0 /Applications/MAMP/htdocs/ten-yards/wp-includes/script-loader.php(1758): WP_Community_Events->get_cached_events()
+#1 /Applications/MAMP/htdocs/ten-yards/wp-includes/class-wp-hook.php(287): wp_localize_community_events('')
+#2 /Applications/MAMP/htdocs/ten-yards/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /Applications/MAMP/htdocs/ten-yards/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/ten-yards/wp-admin/admin-header.php(123): do_action('admin_print_scr...')
+#5 /Applications/MAMP/htdocs/ten-yards/wp-admin/index.php(115): require_once('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/ten-yards/wp-admin/includes/class-wp-community-events.php on line 357
+
+2021-02-18T10:38:46+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /Applications/MAMP/htdocs/ten-yards/wp-admin/includes/class-wp-community-events.php:357
+Stack trace:
+#0 /Applications/MAMP/htdocs/ten-yards/wp-includes/script-loader.php(1758): WP_Community_Events->get_cached_events()
+#1 /Applications/MAMP/htdocs/ten-yards/wp-includes/class-wp-hook.php(287): wp_localize_community_events('')
+#2 /Applications/MAMP/htdocs/ten-yards/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /Applications/MAMP/htdocs/ten-yards/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/ten-yards/wp-admin/admin-header.php(123): do_action('admin_print_scr...')
+#5 /Applications/MAMP/htdocs/ten-yards/wp-admin/index.php(115): require_once('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/ten-yards/wp-admin/includes/class-wp-community-events.php on line 357
+
+2021-02-18T10:38:54+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /Applications/MAMP/htdocs/ten-yards/wp-admin/includes/class-wp-community-events.php:357
+Stack trace:
+#0 /Applications/MAMP/htdocs/ten-yards/wp-includes/script-loader.php(1758): WP_Community_Events->get_cached_events()
+#1 /Applications/MAMP/htdocs/ten-yards/wp-includes/class-wp-hook.php(287): wp_localize_community_events('')
+#2 /Applications/MAMP/htdocs/ten-yards/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /Applications/MAMP/htdocs/ten-yards/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/ten-yards/wp-admin/admin-header.php(123): do_action('admin_print_scr...')
+#5 /Applications/MAMP/htdocs/ten-yards/wp-admin/index.php(115): require_once('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/ten-yards/wp-admin/includes/class-wp-community-events.php on line 357
+
+2021-02-18T10:39:03+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /Applications/MAMP/htdocs/ten-yards/wp-admin/includes/class-wp-community-events.php:357
+Stack trace:
+#0 /Applications/MAMP/htdocs/ten-yards/wp-includes/script-loader.php(1758): WP_Community_Events->get_cached_events()
+#1 /Applications/MAMP/htdocs/ten-yards/wp-includes/class-wp-hook.php(287): wp_localize_community_events('')
+#2 /Applications/MAMP/htdocs/ten-yards/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /Applications/MAMP/htdocs/ten-yards/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/ten-yards/wp-admin/admin-header.php(123): do_action('admin_print_scr...')
+#5 /Applications/MAMP/htdocs/ten-yards/wp-admin/index.php(115): require_once('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/ten-yards/wp-admin/includes/class-wp-community-events.php on line 357
+

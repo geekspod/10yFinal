@@ -1,0 +1,434 @@
+/*Font Family Used In Website*/
+/*Gotham*/
+
+@font-face {
+    font-family:gotham-light;
+    src: url("../fonts/gotham-light.otf");
+    }
+    
+    @font-face {
+    font-family:gotham-regular;
+    src: url("../fonts/gotham-regular.otf");
+    }
+    
+    @font-face {
+    font-family:gotham-medium;
+    src: url("../fonts/gotham-medium.otf");
+    }
+    
+    @font-face {
+    font-family:gotham-bold;
+    src: url("../fonts/gotham-bold.otf");
+    }
+    
+    @font-face {
+    font-family:gotham-black;
+    src: url("../fonts/gotham-black.otf");
+    }
+    
+    @font-face {
+    font-family:brownhill;
+    src: url("../fonts/brownhill-script.ttf");
+    }
+    
+    
+    body {
+        font-family: gotham-regular;
+    }
+    
+    
+     
+    section , header , footer {
+        float: left;
+        width: 100%;
+    }
+    
+    a {
+        transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        cursor: pointer !important;
+        display: inline-block;
+        text-decoration: none !important;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 1170px;
+    }
+    
+header {
+    padding: 15px 0px;
+}
+
+.title-color{
+    color: #02005b !important;
+    font-weight: 900;
+}
+
+.t-color{
+    color: #080688;
+}
+
+.yellow-color{
+    background-color: #e7b900;
+}
+
+.icons > i{
+    padding-left: 1em;
+    padding-right: 1em;
+    cursor: pointer;
+}
+
+.c-icons > i{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    cursor: pointer;
+}
+
+/* Nav Bar */
+.logo {
+    float: left;
+}
+.navbar-custom {
+    float: right;
+}
+.menu-item {
+    float: left;
+    margin-left: 35px;
+}
+
+.menu-item a {
+    color: black;
+    font-size: 14px;
+    padding: 10px 3px;
+}
+.menu-active a {
+    color: #e7b900;
+}
+
+.navbar-handler {
+	display: none;
+}
+.menu-search {
+    float: left;
+    border-left: 1px solid black;
+    margin-left: 20px;
+    padding-left: 25px;
+    margin-top: 3px;
+}
+
+.menu-search form {
+    background: #ebebeb;
+    border: 1px solid silver;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.menu-search form input {
+    width: 230px;
+    border: none;
+    background: #ebebeb;
+    padding: 0px 10px;
+    height: 35px;
+}
+.menu-search form button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: none;
+    border: none;
+    color: #7d7d7d;
+    height: 35px;
+    padding: 0px;
+    width: 36px;
+}
+
+/* Banner */
+section.banner {
+    background-image: url(../images/banner-bg.jpg);
+    padding: 150px 0px;
+    background-size: cover;
+    background-position: top center;
+}
+
+.banner-text h4 {
+    color: white;
+    font-size: 68px;
+    font-family: gotham-black;
+    line-height: 68px;
+    letter-spacing: 1px;
+}
+
+.banner-text p {
+    color: white;
+    font-family: gotham-light;
+    max-width: 450px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 22px;
+}
+
+.banner-text a {
+    background: #e7b900;
+    color: black;
+    font-family: gotham-medium;
+    font-size: 14px;
+    padding: 7px 26px;
+}
+
+/* About Section */
+.about {
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+.about-text{
+    width: 80%;
+    margin: 0 auto;
+}
+.about-text-sub{
+    margin-top: 2em;
+    line-height: 10px;
+    text-transform: capitalize;
+}
+
+.about h1 {
+    font-weight: bolder;
+}
+
+.about-text.text-center p {
+    font-size: 17px;
+}
+
+.about button {
+    border: 1px solid #e7b900;
+    background: #e7b900;
+    color: black;
+    font-family: gotham-medium;
+    font-size: 14px;
+    padding: 7px 35px;
+}
+
+.about-btn{
+    margin-top: 2em;
+}
+
+/* About Team */
+
+.about-team {
+    background-color: #f5f5f5;
+    padding: 6em;
+}
+
+.team-text > h1 {
+    font-weight: bolder;
+}
+
+.team-text.text-center p {
+    font-size: 16px;
+    margin: 0em 0em 2em 0em;
+}
+
+/* Card */
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.card {
+    border: 1px solid black;
+    background: #ffffff;
+}
+
+.frontside .card {
+    min-height: 312px;
+    border: 2em solid white;
+}
+
+.frontside .card .card-title {
+    font-weight: bolder;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.row-car {
+    margin-right: -15px;
+    margin-left: 15em;
+}
+
+/* Card end */
+
+/* Get Started section */
+
+section.get-started {
+    padding: 80px 0px;
+    background: #02005b;
+    text-align: center;
+}
+ 
+.get-started-text h4 {
+    color: #e7b900;
+    font-family: brownhill;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin: 0px;
+}
+.get-started-text h5 {
+    color: white;
+    font-family: gotham-bold;
+    font-size: 38px;
+    margin: 0px;
+    line-height: 19px;
+    z-index: 99;
+    position: relative;
+    margin-bottom: 45px;
+}
+.get-started-text a {
+    background: #e7b900;
+    color: black;
+    font-family: gotham-medium;
+    font-size: 14px;
+    padding: 10px 22px;
+}
+
+
+/* Footer */
+footer {
+    padding: 75px 0px;
+    background: #0d0d0d;
+}
+
+.footer-about {
+    float: left;
+    width: 27%;
+    padding-right: 30px;
+}
+
+.footer-about p {
+    color: #cccbcb;
+    font-family: gotham-light;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+}
+.footer-about h6 {
+    margin-top: 15px;
+}
+
+.footer-about h6 a {
+    color: white;
+    font-size: 15px;
+    margin-right: 7px;
+}
+
+
+.footer-about a img {
+    width: 158px;
+    margin-left: -5px;
+    margin-bottom: 10px;
+}
+
+.footer-list ul li a {
+    color: #cccbcb;
+    font-family: gotham-light;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+.footer-list ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.footer-list {
+    float: left;
+    padding-right: 30px;
+}
+
+.footer-list h5 {
+    color: white;
+    font-family: gotham-medium;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    margin-bottom: 20px;
+}
+
+
+.footer-list ul li {
+    margin-bottom: 8px;
+}
+.footer-list:nth-child(6) {
+    padding: 0px;
+}
+
+.col-xs-12.col-sm-6.col-md-3 {
+    padding: 5px;
+}
+
+.priva-1 {
+    padding: 4em 0em 0em 0em;
+}
+
+.priva-1 h1 {
+    color: #02005b;
+    font-weight: bolder;
+}
+
+.priva-1 p {
+    padding: 10px 0px;
+}
+
+.priva-1 p span {
+    font-weight: bolder;
+}
+
+.priva h1 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.priva p {
+    padding: 7px 0px 0px 0px;
+}
+
+.priva h4 {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.priva h4 {
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 2px 0px;
+}
+
+.container-n {
+    padding: 0em 10em;
+}

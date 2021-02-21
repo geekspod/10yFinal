@@ -1,0 +1,44 @@
+2021-02-09T10:28:45+00:00 ERROR Error getting remote inbox notification data feed
+2021-02-09T10:28:45+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 6: Could not resolve: woocommerce.com (Could not contact DNS servers)
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2021-02-09T10:28:45+00:00 ERROR Error getting remote inbox notification data feed
+2021-02-09T10:28:45+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 6: Could not resolve: woocommerce.com (Could not contact DNS servers)
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+

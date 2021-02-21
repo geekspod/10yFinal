@@ -1,0 +1,13 @@
+#wpadminbar {
+  background: #242B37; }
+  #wpadminbar * {
+    color: white !important; }
+  #wpadminbar li a.ab-item,
+  #wpadminbar li .ab-sub-wrapper {
+    color: white !important;
+    background-color: #242B37 !important; }
+  #wpadminbar li a:focus span {
+    color: #4BA0D9 !important; }
+  #wpadminbar li:hover > a,
+  #wpadminbar li:hover > a span {
+    color: #4BA0D9 !important; }

@@ -1,0 +1,31 @@
+#wpadminbar {
+  z-index: 9998 !important;
+  height: 45px;
+  padding-right: 50px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border-bottom: thin solid #E9EBEE; }
+  #wpadminbar * {
+    color: #575757 !important; }
+  #wpadminbar li a.ab-item,
+  #wpadminbar li .ab-sub-wrapper {
+    color: #575757 !important;
+    background-color: transparent !important; }
+  #wpadminbar li .ab-sub-wrapper {
+    border: thin solid #E9EBEE;
+    border-top: none;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    background-color: #FFFFFF !important; }
+  #wpadminbar li a:focus span {
+    color: #4BD9AC !important; }
+  #wpadminbar li span,
+  #wpadminbar li a:before,
+  #wpadminbar li a span.ab-icon,
+  #wpadminbar li a span.ab-icon:before {
+    color: #575757 !important; }
+  #wpadminbar li:hover > a,
+  #wpadminbar li:hover > a span {
+    color: #4BD9AC !important; }
+  #wpadminbar #adminbarsearch:before {
+    color: #575757 !important; }

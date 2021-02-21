@@ -1,0 +1,295 @@
+/*@media all and (min-width: 420px) {
+    .container {
+      max-width: 538px;
+    }
+    section {
+      float: left;
+      width: 63.197026%;
+    }
+    aside {
+      float: right;
+      width: 29.3680297%;
+    }*/
+
+.container {
+    max-width: 100em;
+}
+
+.container-fluid {
+    width: 95em;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-div {
+    background-color: #f1f2f7;
+    height: 63em;
+}
+
+.bnr-img {
+    padding: 0em 8em;
+}
+
+.bnr-img img {
+    width: 15em;
+}
+
+.bnr-logo {
+    padding: 20px 30px;
+}
+
+.dro-d {
+    padding: 20px 30px;
+}
+
+.dro-d i {
+    padding: 0px 10px;
+}
+
+.menu-search {
+    float: left;
+    margin-top: 15px;
+}
+
+.menu-search form {
+    border: 1px solid silver;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu-search form input {
+    width: 30em;
+    border: none;
+    padding: 0px 10px;
+    height: 35px;
+}
+
+.menu-search form button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: none;
+    border: none;
+    color: #7d7d7d;
+    height: 35px;
+    padding: 0px;
+    width: 36px;
+}
+
+.user {
+    padding: 20px 0px;
+    float: left;
+    font-size: 10px;
+}
+
+.user i {
+    font-size: 45px;
+    padding: 0px 5px;
+    margin-top: -28px;
+    color: #02005b;
+}
+
+.user p {
+    font-size: 13px;
+    padding: 10px 17px 0px 54px;
+    margin-bottom: 0px;
+}
+
+.arr {
+    padding: 35px 15px;
+}
+
+.arr i {
+    float: right;
+    padding: 0px 10px;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.main-para {
+    padding: 2em 4em;
+}
+
+.main-para h1 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #02005b;
+}
+
+.bnr-img h4 {
+    font-size: 17px;
+    width: 12em;
+    padding: 10px 0px 0px;
+    font-weight: bolder;
+    color: #02005b;
+}
+
+.bnr-img h5 {
+    font-weight: bolder;
+}
+
+.bnr-img p {
+    width: 15em;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bnr-img h5 {
+    font-weight: bolder;
+    margin-top: -5px;
+}
+
+.bnr-img p {
+    width: 15em;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+@media (min-width: 320px) and (max-width: 480px){
+.bnr-logo {
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px;
+    }
+.dro-d {
+    text-align: center;
+    padding: 0px;
+    margin-top: 15px;
+    }    
+.menu-search {
+    float: none;
+    }    
+.menu-search form input {
+    width: initial;
+    }     
+ .arr i {
+    float: none;
+    } 
+.bnr-img {
+    padding: 0px;
+    }        
+.bnr-img img {
+    width: 100%;
+    }    
+}
+@media (min-width: 481px) and (max-width: 767px){
+.bnr-img {
+    padding: 0px;
+    }        
+.bnr-img img {
+    width: 100%;
+    }    
+}
+@media (min-width: 768px) and (max-width: 1024px){
+.bnr-img {
+    padding: 0px;
+    }     
+.bnr-img p {
+    font-size: 8px;
+    }       
+.bnr-img img {
+    width: 100%;
+    }   
+.bnr-img h4 {
+    font-size: 11px;
+    }    
+.bnr-logo {
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px;
+    }
+.dro-d {
+    text-align: center;
+    padding: 0px;
+    margin-top: 15px;
+    }       
+.menu-search {
+    float: none;
+    }      
+.arr i {
+    float: none;
+    }     
+}
+
+
+.header2 .container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.header2 {
+    padding: 20px 0px;
+    float: left;
+    width: 100%;
+    background:White;
+}
+.header2 .logo {
+    float: left;
+    margin-right: 30px;
+}
+.header2 .star-image {
+    float: left;
+    margin-right: 10px;
+}
+
+.first-down button {
+    background: none !important;
+    color: black !important;
+    border: none !important;
+    padding: 0px 20px !important;
+    outline: none !important;
+    border: none !important;
+}
+.first-down {
+    float: left;
+}
+.search-form2 {
+    float: left;
+}
+
+
+.search-form2 input[type="text"] {
+    width: 350px;
+    border: none;
+    padding: 0px 20px;
+    height: 35px;
+    outline: none;
+}
+
+.search-form2 {
+    float: left;
+    border: 1px solid silver;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 36px;
+}
+
+.search-form2 button {
+    border: none;
+    background: none;
+    margin-right: 10px;
+    color: grey;
+}
+
+.user-drop .dropdown {
+    position: static;
+}
+.user-drop {
+    float: right;
+}
+.user-drop .dropdown img {
+    width: 40px;
+}
+.use-down .btn-primary {
+    background-color: transparent;
+    border-style: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 0px;
+}
