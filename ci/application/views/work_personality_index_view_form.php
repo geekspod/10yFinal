@@ -27,15 +27,10 @@ if($email == '') {
 }
 
 ?>
-    <div style="position: fixed; right: 0; left: 0;z-index: 100;text-align:center">
-        <h1 style="display: inline-block;background-color:white;border-radius:20px;box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 75%);padding:10px">Work Personality Index</h1>
+    <h1 style="text-align:center">Work Personality Index</h1>
+    <div style="position: fixed; right: 0; left: 0;z-index: 100;">
 
         <!--end-->
-
-
-
-
-
 <section class="content-header" style="display:none">
 	<div class="content-header-left">
     <?php echo "<br>"; echo "<br>"; echo "<br>"; echo "<br>"; echo "<br>";?>
@@ -46,11 +41,11 @@ if($email == '') {
 	<!--</div>-->
 </section>
     <div>
-        <div class="someTimer" data-timer="<?php echo $remaining_test_time_slots['test_time_slot']*60;?>" style="position: absolute;right: 0;width: 300px;height: 100px;left: 0;margin: auto;background-color:white;border-radius:20px;box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 75%);z-index:200"></div>
-        <div class="someTimer2" data-timer="180" style="position: absolute;right: 0;width: 300px;height: 100px;left: 0;margin: auto;background-color:white;border-radius:20px;box-shadow: 2px 2px 20px 0px rgb(0 0 0 / 75%);"></div>
+        <div class="someTimer" data-timer="420" style="position: absolute;right: 5%;width: 200px;height: 100px;margin: auto;background-color: #EEE;border-radius:20px;z-index:200;" data-tc-id="f0da222b-4be7-a421-c703-df55751c8c4b"><div class="time_circles"><canvas width="200" height="100"></canvas><div class="textDiv_Days" style="top: 18px; left: 0px; width: 50px;"><h4 style="font-size: 4px;">Days</h4><span style="font-size: 14px;">0</span></div><div class="textDiv_Hours" style="top: 18px; left: 50px; width: 50px;"><h4 style="font-size: 4px;">Hours</h4><span style="font-size: 14px;">0</span></div><div class="textDiv_Minutes" style="top: 18px; left: 100px; width: 50px;"><h4 style="font-size: 4px;">Minutes</h4><span style="font-size: 14px;">0</span></div><div class="textDiv_Seconds" style="top: 18px; left: 150px; width: 50px;"><h4 style="font-size: 4px;">Seconds</h4><span style="font-size: 14px;">25</span></div></div></div>
+        <div class="someTimer2" data-timer="180" style="position: absolute;right: 5%;width: 200px;height: 100px;margin: auto;background-color: #EEE;border-radius:20px;"></div>
     </div>
 </div>
-<form id="myform" class="myform" method="post" name="myform" style="padding-top: 200px">
+<form id="myform" class="myform" method="post" name="myform">
 
 <div id="message"></div>
  <input type="hidden" class="email" name="email" value="<?php echo $dashboard_data['email'];?>"
